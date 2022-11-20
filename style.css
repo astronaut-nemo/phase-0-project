@@ -74,18 +74,24 @@ body{
 
 .landing-page #about-section .right p{
     font-size: 18px;
+    text-align: start;
     word-spacing: 0.5em;
     padding: 20px;
 }
 
 .landing-page #about-section .right .contact-icons{
-    background-color: #0f0f0f;
     display: flex;
     justify-content: space-around;
-    padding: 50px;
+    padding: 20px;
 }
 
 .landing-page #about-section .right .contact-icons a{
     text-decoration: none;
-    padding: 20px;
+    /* padding: 20px; */
+}
+
+.landing-page #about-section .right .contact-icons i{
+    width: 50px;
+    color: #0f0f0f;
+    font-size: 40px;
 }
