@@ -15,7 +15,7 @@ body{
     justify-content: space-between;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: #F0F5F6;
+    background-color: #f6fafb;
 }
 
 #navbar h1{
@@ -40,3 +40,52 @@ body{
 }
 
 /* LANDING PAGE */
+.landing-page{
+    margin: 30px;
+}
+
+.landing-page #about-section{
+    background-color: #f6fafb;
+    border-radius: 15px;
+    padding: 30px;
+    align-items: center;
+    display: flex;
+    height: 70vh;
+}
+
+.landing-page #about-section .left{
+    width: 50%;
+}
+
+.landing-page #about-section .left img{
+    display: none;
+}
+
+.landing-page #about-section .right{
+    width: 50%;
+    text-align: center;
+
+}
+
+.landing-page #about-section .right .hey{
+    font-size: xx-large;
+    word-spacing: 0.5em;
+}
+
+.landing-page #about-section .right p{
+    font-size: 18px;
+    word-spacing: 0.5em;
+    padding: 20px;
+}
+
+.landing-page #about-section .right .contact-icons{
+    background-color: #0f0f0f;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.landing-page #about-section .right .contact-icons a{
+    text-decoration: none;
+    padding: 20px;
+}
